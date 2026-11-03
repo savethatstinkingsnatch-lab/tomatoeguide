@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Tomato Book",
+      "hasCanvas": false,
+      "bodyTextLen": 291,
+      "bodyTextHash": "74499dcb7482d68b7a80f5fb9664ac485b991338ab4299edbda2fc197ba796d2",
+      "bodyTextPrefix": "A GARDEN COMPANION The Tomato Book From seed tray to frost — how",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Tomato Book",
+      "hasCanvas": false,
+      "bodyTextLen": 291,
+      "bodyTextHash": "74499dcb7482d68b7a80f5fb9664ac485b991338ab4299edbda2fc197ba796d2",
+      "bodyTextPrefix": "A GARDEN COMPANION The Tomato Book From seed tray to frost — how",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

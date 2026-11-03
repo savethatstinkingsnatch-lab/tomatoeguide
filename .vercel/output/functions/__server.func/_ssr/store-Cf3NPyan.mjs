@@ -1,0 +1,328 @@
+import { n as create, t as persist } from "../_libs/zustand.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/store-Cf3NPyan.js
+var ZONE_IDS = [
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	9,
+	10,
+	11
+];
+var ZONES = {
+	3: {
+		id: 3,
+		label: "Zone 3",
+		tempRange: "−40 to −30°F",
+		lastFrost: "May 15 – June 1",
+		firstFrost: "Early September",
+		startIndoors: "Mid-March",
+		transplant: "Early June",
+		harvest: "August – early September",
+		seasonDays: "~90 frost-free days",
+		regions: "Northern Minnesota, Montana plains, northern Maine, the Dakotas",
+		notes: "Every week counts. Warm the soil with black plastic, use Wall-O-Water or a low tunnel at transplant, and pull fruit before the first hard freeze.",
+		varietyAdvice: "Only extra-early types (55–70 days): Stupice, Glacier, Sub-Arctic Plenty, Fourth of July, and cherries such as Sungold. Skip long-season beefsteaks.",
+		harvestAdvice: "Pick at first blush of color and finish ripening indoors. Strip the vines before nights drop into the 40s.",
+		months: [
+			"frost",
+			"frost",
+			"start",
+			"start",
+			"frost",
+			"plant",
+			"grow",
+			"harvest",
+			"harvest",
+			"frost",
+			"frost",
+			"frost"
+		]
+	},
+	4: {
+		id: 4,
+		label: "Zone 4",
+		tempRange: "−30 to −20°F",
+		lastFrost: "May 1 – 15",
+		firstFrost: "Mid- to late September",
+		startIndoors: "Late February – early March",
+		transplant: "Mid-May",
+		harvest: "July – September",
+		seasonDays: "~120–140 days",
+		regions: "Upper Midwest, northern New England, Rocky Mountain valleys",
+		notes: "A workable season if you start indoors and choose 70–80 day varieties. Row cover on cold May nights pays for itself.",
+		varietyAdvice: "Early and mid-season: Early Girl, Celebrity, Oregon Spring, cherries, and compact paste types. One or two heirlooms if you can spare the days.",
+		harvestAdvice: "Main harvest in August. Gather remaining fruit in mid-September and ripen on a windowsill.",
+		months: [
+			"frost",
+			"frost",
+			"start",
+			"start",
+			"frost",
+			"plant",
+			"grow",
+			"harvest",
+			"harvest",
+			"frost",
+			"frost",
+			"frost"
+		]
+	},
+	5: {
+		id: 5,
+		label: "Zone 5",
+		tempRange: "−20 to −10°F",
+		lastFrost: "April 15 – 30",
+		firstFrost: "Late September – early October",
+		startIndoors: "Late February",
+		transplant: "Early May",
+		harvest: "July – October",
+		seasonDays: "~150–170 days",
+		regions: "Chicago, Denver, Boston, interior Pacific Northwest",
+		notes: "A classic tomato climate. Wait for soil at 60°F, not just the calendar. Late April transplants need covers.",
+		varietyAdvice: "Most types succeed. Mix an early insurance crop with a mid-season slicer and one heirloom. Determinate plants finish before frost.",
+		harvestAdvice: "Peak in August and September. Watch the first October frost; pick green fruit the afternoon before.",
+		months: [
+			"frost",
+			"frost",
+			"start",
+			"start",
+			"plant",
+			"grow",
+			"harvest",
+			"harvest",
+			"harvest",
+			"harvest",
+			"frost",
+			"frost"
+		]
+	},
+	6: {
+		id: 6,
+		label: "Zone 6",
+		tempRange: "−10 to 0°F",
+		lastFrost: "April 1 – 15",
+		firstFrost: "Mid- to late October",
+		startIndoors: "Mid-February – early March",
+		transplant: "Mid- to late April",
+		harvest: "June – October",
+		seasonDays: "~165–190 days",
+		regions: "St. Louis, Philadelphia, Kansas City, Portland, Oregon",
+		notes: "The sweet spot. You can grow almost anything if you keep water even and prune for air. Nightshade rotation still matters.",
+		varietyAdvice: "Full range: Sungold, Brandywine, Cherokee Purple, San Marzano, Roma, and a patio type for pots. Include one early and one late.",
+		harvestAdvice: "First ripe fruit in late June for cherries; slicers through October. Pull plants after the first light frost.",
+		months: [
+			"frost",
+			"start",
+			"start",
+			"plant",
+			"grow",
+			"harvest",
+			"harvest",
+			"harvest",
+			"harvest",
+			"harvest",
+			"frost",
+			"frost"
+		]
+	},
+	7: {
+		id: 7,
+		label: "Zone 7",
+		tempRange: "0 to 10°F",
+		lastFrost: "March 15 – April 1",
+		firstFrost: "Late October – early November",
+		startIndoors: "Late January – February",
+		transplant: "Late March – early April",
+		harvest: "June – November",
+		seasonDays: "~200–220 days",
+		regions: "Nashville, Oklahoma City, Virginia Beach, the Piedmont",
+		notes: "A long, generous season. Mulch heavily by June. Watch early blight in humid summers and keep leaves dry.",
+		varietyAdvice: "Heirlooms and long-season beefsteaks thrive. Add a disease-resistant hybrid as backup in wet years.",
+		harvestAdvice: "Harvest from June into November. Flavor often peaks in September as nights cool.",
+		months: [
+			"frost",
+			"start",
+			"start",
+			"plant",
+			"grow",
+			"harvest",
+			"harvest",
+			"harvest",
+			"harvest",
+			"harvest",
+			"harvest",
+			"frost"
+		]
+	},
+	8: {
+		id: 8,
+		label: "Zone 8",
+		tempRange: "10 to 20°F",
+		lastFrost: "February 15 – March 15",
+		firstFrost: "Mid- to late November",
+		startIndoors: "Early January",
+		transplant: "Mid-March",
+		harvest: "May – November",
+		seasonDays: "~240–260 days",
+		regions: "Atlanta, Dallas, Austin, coastal Carolinas",
+		notes: "Heat is the limiter, not frost. Afternoon shade cloth in July and August, and a second planting in late summer for a fall crop.",
+		varietyAdvice: "Heat-tolerant slicers plus cherries that keep setting above 90°F. Avoid varieties that stall in night heat.",
+		harvestAdvice: "Spring crop from May; a midsummer lull is normal. Fall harvest runs into November.",
+		months: [
+			"start",
+			"start",
+			"plant",
+			"grow",
+			"harvest",
+			"harvest",
+			"heat",
+			"heat",
+			"harvest",
+			"harvest",
+			"harvest",
+			"frost"
+		]
+	},
+	9: {
+		id: 9,
+		label: "Zone 9",
+		tempRange: "20 to 30°F",
+		lastFrost: "January 20 – February 15",
+		firstFrost: "Late November – early December",
+		startIndoors: "December – January",
+		transplant: "Late February",
+		harvest: "April – June, and October – December",
+		seasonDays: "~270–300 days, with a summer pause",
+		regions: "Houston, New Orleans, central Florida, low desert of Arizona",
+		notes: "Grow two crops: spring and fall. Fruit set fails when days exceed 90°F and nights stay above 75°F. Skip the worst of summer.",
+		varietyAdvice: "Heat-set types: Heatmaster, Solar Fire, Phoenix, Florida 91, Homestead. Cherries still outperform large fruit in midsummer.",
+		harvestAdvice: "Pick the spring crop before July heat. Transplant a fall crop in August for fruit from October on.",
+		months: [
+			"start",
+			"plant",
+			"grow",
+			"harvest",
+			"harvest",
+			"harvest",
+			"heat",
+			"heat",
+			"plant",
+			"grow",
+			"harvest",
+			"harvest"
+		]
+	},
+	10: {
+		id: 10,
+		label: "Zone 10",
+		tempRange: "30 to 40°F",
+		lastFrost: "Rare; January if at all",
+		firstFrost: "Rare; December if at all",
+		startIndoors: "November – December",
+		transplant: "January – February, and August",
+		harvest: "Nearly year-round, with a summer lull",
+		seasonDays: "~330+ days",
+		regions: "Miami, coastal Southern California, the Rio Grande Valley",
+		notes: "Frost is not the story. Nematodes, whitefly, and heat are. Plant for winter–spring production and again for fall.",
+		varietyAdvice: "Heat-set and nematode-resistant varieties. Cherry and grape types are the most reliable through warm nights.",
+		harvestAdvice: "Best fruit in late winter through May, then again in autumn. Quality drops in peak summer heat.",
+		months: [
+			"plant",
+			"grow",
+			"harvest",
+			"harvest",
+			"harvest",
+			"heat",
+			"heat",
+			"heat",
+			"plant",
+			"grow",
+			"harvest",
+			"harvest"
+		]
+	},
+	11: {
+		id: 11,
+		label: "Zone 11",
+		tempRange: "Above 40°F",
+		lastFrost: "Frost-free",
+		firstFrost: "Frost-free",
+		startIndoors: "Any time; cool months are easiest",
+		transplant: "October – March for the main crop",
+		harvest: "Year-round in theory; best in the cool season",
+		seasonDays: "365 days, heat-limited",
+		regions: "Key West, Honolulu, tropical South Florida, Puerto Rico",
+		notes: "Treat tomatoes as a cool-season crop. Give afternoon shade, consistent water, and watch for nematodes and tropical pests.",
+		varietyAdvice: "Small-fruited and heat-set varieties. Large beefsteaks often disappoint. Try Everglades (wild) cherry for humidity.",
+		harvestAdvice: "Harvest continuously in the dry, cooler months. Summer fruit is edible but often softer and less flavorful.",
+		months: [
+			"harvest",
+			"harvest",
+			"harvest",
+			"harvest",
+			"heat",
+			"heat",
+			"heat",
+			"heat",
+			"plant",
+			"grow",
+			"harvest",
+			"harvest"
+		]
+	}
+};
+var MONTHS = [
+	"Jan",
+	"Feb",
+	"Mar",
+	"Apr",
+	"May",
+	"Jun",
+	"Jul",
+	"Aug",
+	"Sep",
+	"Oct",
+	"Nov",
+	"Dec"
+];
+var PHASE_LABEL = {
+	frost: {
+		label: "Frost risk",
+		className: "bg-paper-deep text-muted"
+	},
+	start: {
+		label: "Start indoors",
+		className: "bg-sage/15 text-sage"
+	},
+	plant: {
+		label: "Transplant",
+		className: "bg-sage text-paper"
+	},
+	grow: {
+		label: "In the ground",
+		className: "bg-sage-soft/30 text-leaf"
+	},
+	harvest: {
+		label: "Harvest",
+		className: "bg-tomato text-paper"
+	},
+	heat: {
+		label: "Heat pause",
+		className: "bg-tomato/15 text-tomato-deep"
+	}
+};
+var useBookStore = create()(persist((set, get) => ({
+	zone: 6,
+	setZone: (zone) => set({ zone }),
+	read: [],
+	markRead: (slug) => {
+		const read = get().read;
+		if (read.includes(slug)) return;
+		set({ read: [...read, slug] });
+	}
+}), { name: "the-tomato-book" }));
+//#endregion
+export { useBookStore as a, ZONE_IDS as i, PHASE_LABEL as n, ZONES as r, MONTHS as t };

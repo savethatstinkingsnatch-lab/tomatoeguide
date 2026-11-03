@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/book",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Tomato Book",
+      "hasCanvas": false,
+      "bodyTextLen": 1845,
+      "bodyTextHash": "7947d0096c4c04a892b974faa545432062e9d64c7edd82432007d092c95c4e8c",
+      "bodyTextPrefix": "The Tomato Book Contents Zone 6 CONTENTS The book 01 Before You ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/contents.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Tomato Book",
+      "hasCanvas": false,
+      "bodyTextLen": 1559,
+      "bodyTextHash": "4710f96f4905b7f5982e46593d2afba2f371e26008b108686c1b2984dd57c71e",
+      "bodyTextPrefix": "The Tomato Book Zone 6 CONTENTS From seed to harvest A practical",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/contents-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/contents.json"
+}

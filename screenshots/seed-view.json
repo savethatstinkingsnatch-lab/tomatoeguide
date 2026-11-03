@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/book/saving-seed",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Tomato Book",
+      "hasCanvas": false,
+      "bodyTextLen": 3016,
+      "bodyTextHash": "b2dc7ccf1d2d4ab7c0e26c9ff9ced65be8abf41ad721380463a9e1dab7371529",
+      "bodyTextPrefix": "The Tomato Book Harvesting Seeds Zone 6 CONTENTS The book 01 Bef",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/seed-view.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Tomato Book",
+      "hasCanvas": false,
+      "bodyTextLen": 2722,
+      "bodyTextHash": "da35d7a36d09b404aeccfc2fcd3a55e722fffed19d296250f7a517d727ad7aaf",
+      "bodyTextPrefix": "The Tomato Book Zone 6 A sliced tomato with seed gel on a wooden",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/seed-view-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/seed-view.json"
+}

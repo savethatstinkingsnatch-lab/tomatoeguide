@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/book/climate",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "The Tomato Book",
+      "hasCanvas": false,
+      "bodyTextLen": 3530,
+      "bodyTextHash": "7b12126015ce62d16d956acf984f0a88e034d0be118cabcd97861d370474afe5",
+      "bodyTextPrefix": "The Tomato Book Climate and Zones Zone 6 CONTENTS The book 01 Be",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/climate-view.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "The Tomato Book",
+      "hasCanvas": false,
+      "bodyTextLen": 3235,
+      "bodyTextHash": "bb1e2c905e54f56921441b3122a1012a1cb36db6a2870f4deefa9415726f7b1b",
+      "bodyTextPrefix": "The Tomato Book Zone 6 A spring vegetable garden with frost clot",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/climate-view-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/climate-view.json"
+}
