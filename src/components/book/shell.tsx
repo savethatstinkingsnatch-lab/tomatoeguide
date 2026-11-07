@@ -44,7 +44,7 @@ export function BookShell() {
             to="/"
             className="font-display text-base font-medium tracking-tight text-ink"
           >
-            Tomatoes: Seed to Seed
+            Volume 7: Tomatoes
           </Link>
           <span className="hidden truncate text-sm text-muted sm:block">
             {chapter ? chapter.title : "Contents"}

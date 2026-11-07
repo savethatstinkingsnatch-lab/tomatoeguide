@@ -14,10 +14,10 @@ function Cover() {
         <section className="order-2 flex flex-col justify-center px-6 py-10 sm:px-10 lg:order-1 lg:px-14 lg:py-12">
           <div className="stagger-in max-w-md">
             <p className="text-xs font-medium tracking-widest text-tomato uppercase">
-              The Education Revolution Pocket Guide, Volume 7
+              The Education Revolution · Volume 7
             </p>
             <h1 className="mt-4 font-display text-5xl leading-[0.95] font-medium tracking-tight text-ink sm:text-6xl">
-              Tomatoes: Seed to Seed
+              Volume 7: Tomatoes
             </h1>
             <p className="mt-3 font-display text-lg text-ink-soft">
               by Blue and the Awesome Dudes

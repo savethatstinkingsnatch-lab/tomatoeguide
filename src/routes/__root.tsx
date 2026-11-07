@@ -3,7 +3,7 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Tomatoes: Seed to Seed";
+const APP_NAME = "Volume 7: Tomatoes (The Education Revolution)";
 
 export const Route = createRootRoute({
   head: () => ({
@@ -14,7 +14,7 @@ export const Route = createRootRoute({
       {
         name: "description",
         content:
-          "Tomatoes: Seed to Seed, Volume 7 of The Education Revolution Pocket Guide, by Blue and the Awesome Dudes. Zones, planting, companions, harvest, and saving seed.",
+          "Volume 7 of The Education Revolution, by Blue and the Awesome Dudes. Zones, planting, companions, harvest, and saving seed.",
       },
       { name: "theme-color", content: "#F3EBE0" },
     ],
