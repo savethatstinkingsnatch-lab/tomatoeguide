@@ -44,7 +44,7 @@ export function BookShell() {
             to="/"
             className="font-display text-base font-medium tracking-tight text-ink"
           >
-            The Tomato Book
+            Tomatoes: Seed to Seed
           </Link>
           <span className="hidden truncate text-sm text-muted sm:block">
             {chapter ? chapter.title : "Contents"}
@@ -89,6 +89,13 @@ export function BookShell() {
           <Outlet />
         </main>
       </div>
+      <footer className="border-t border-line px-5 py-6">
+        <p className="mx-auto max-w-6xl text-xs leading-relaxed text-muted">
+          Privacy: This guide does not collect your name, email, or any
+          personal information. Your zone choice is saved only on your own
+          device.
+        </p>
+      </footer>
     </div>
   );
 }

@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/book/stay-safe",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Tomatoes: Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 2114,
+      "bodyTextHash": "0f52826994876495e122a1e4a9d99d948624c4e55920113c35a2d5acec41004b",
+      "bodyTextPrefix": "Tomatoes: Seed to Seed Stay Safe Zone 6 CONTENTS The book 01 Bef",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/stay-safe.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Tomatoes: Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 1778,
+      "bodyTextHash": "4c3ad43dbe3177c093e6500d96842d4572e7e54187bae93868fe510551d7770f",
+      "bodyTextPrefix": "Tomatoes: Seed to Seed Zone 6 A close view of a tomato leaf in t",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/stay-safe-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/stay-safe.json"
+}

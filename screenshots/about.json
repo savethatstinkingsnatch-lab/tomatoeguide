@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/book/about",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Tomatoes: Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 1125,
+      "bodyTextHash": "83057b01e519202eb8450c8adedec8cb14782b7d9d47ad27bc06ac515bce8950",
+      "bodyTextPrefix": "Tomatoes: Seed to Seed About and Disclaimer Zone 6 CONTENTS The ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/about.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Tomatoes: Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 778,
+      "bodyTextHash": "32707a7f32077f54aed8603a40ec3bdfc8fa0932bcf81a8406f3f1e16f14dae8",
+      "bodyTextPrefix": "Tomatoes: Seed to Seed Zone 6 Ripe tomatoes on the vine in late-",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/about-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/about.json"
+}

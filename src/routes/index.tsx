@@ -14,20 +14,20 @@ function Cover() {
         <section className="order-2 flex flex-col justify-center px-6 py-10 sm:px-10 lg:order-1 lg:px-14 lg:py-12">
           <div className="stagger-in max-w-md">
             <p className="text-xs font-medium tracking-widest text-tomato uppercase">
-              A garden companion
+              The Education Revolution Pocket Guide, Volume 7
             </p>
             <h1 className="mt-4 font-display text-5xl leading-[0.95] font-medium tracking-tight text-ink sm:text-6xl">
-              The Tomato Book
+              Tomatoes: Seed to Seed
             </h1>
             <p className="mt-3 font-display text-lg text-ink-soft">
-              by Jessica McIntosh
+              by Blue and the Awesome Dudes
             </p>
             <p className="mt-5 text-lg leading-relaxed text-ink-soft">
               From seed tray to frost — how to grow tomatoes, pick the fruit,
               save the seed, and plant the neighbors that earn their keep.
             </p>
             <p className="mt-4 text-sm text-muted">
-              Eleven chapters. USDA zones 3–11. Your season, your dates.
+              USDA zones 3–11. Your season, your dates. Free to read.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
@@ -53,6 +53,11 @@ function Cover() {
             </p>
             <ZonePicker compact />
           </div>
+          <p className="mt-10 max-w-md text-xs leading-relaxed text-muted">
+            Privacy: This guide does not collect your name, email, or any
+            personal information. Your zone choice is saved only on your own
+            device.
+          </p>
         </section>
         <section className="relative order-1 h-64 sm:h-80 lg:order-2 lg:h-auto lg:min-h-dvh">
           <img

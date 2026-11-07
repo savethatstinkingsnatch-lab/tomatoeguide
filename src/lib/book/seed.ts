@@ -9,7 +9,7 @@ export const SEED_STEPS = [
   },
   {
     title: "Ferment two to three days",
-    body: "Cover loosely. Set the jar at room temperature, 70–80°F, out of sun. Stir once a day. A thin film of mold is normal; it is the gel coat breaking down, and it reduces some seed-borne diseases. Stop at two to three days. Longer fermentation cuts germination.",
+    body: "Cover loosely with a cloth. Set the jar at room temperature, 70–80°F, out of sun and away from food, because it smells and draws fruit flies. Stir once a day. A thin film of mold is normal; it is the gel coat breaking down, and it reduces some seed-borne diseases. Stop at two to three days. Longer fermentation cuts germination. Wash your hands after. Only save seed from healthy plants. Some tomato diseases travel inside the seed.",
   },
   {
     title: "Rinse until the water runs clear",

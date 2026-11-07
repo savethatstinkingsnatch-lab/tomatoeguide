@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/book/glossary",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Tomatoes: Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 1542,
+      "bodyTextHash": "014edba2c8d96f5891de39e14d562073928043d58d797a0cfd60b586aee44b86",
+      "bodyTextPrefix": "Tomatoes: Seed to Seed Glossary Zone 6 CONTENTS The book 01 Befo",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/glossary.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Tomatoes: Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 1207,
+      "bodyTextHash": "f8ca97e888bbb98e57311316fa9a53e6a4291d37331c552780129c46649eb25b",
+      "bodyTextPrefix": "Tomatoes: Seed to Seed Zone 6 A still life of several kinds of r",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/glossary-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/glossary.json"
+}

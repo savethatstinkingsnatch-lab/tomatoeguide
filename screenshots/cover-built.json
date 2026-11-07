@@ -1,0 +1,38 @@
+{
+  "url": "http://127.0.0.1:8081/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Tomatoes: Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 489,
+      "bodyTextHash": "5ea56db3c1be044fcee8079805ef6aaac8788abb33659dcc47d1bc720a5cd855",
+      "bodyTextPrefix": "THE EDUCATION REVOLUTION POCKET GUIDE, VOLUME 7 Tomatoes: Seed t",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/cover-built.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Tomatoes: Seed to Seed",
+      "hasCanvas": false,
+      "bodyTextLen": 489,
+      "bodyTextHash": "5ea56db3c1be044fcee8079805ef6aaac8788abb33659dcc47d1bc720a5cd855",
+      "bodyTextPrefix": "THE EDUCATION REVOLUTION POCKET GUIDE, VOLUME 7 Tomatoes: Seed t",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/cover-built-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/cover-built.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

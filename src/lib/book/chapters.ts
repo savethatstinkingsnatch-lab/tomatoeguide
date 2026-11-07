@@ -69,8 +69,51 @@ export const CHAPTERS: Chapter[] = [
     ],
   },
   {
-    slug: "climate",
+    slug: "stay-safe",
     number: "02",
+    title: "Stay Safe",
+    kicker: "Before you cook or forage",
+    dek: "The fruit you planted is food. The leaves, the wild look-alikes, and a sealed jar are not.",
+    image: "/images/pests.jpg",
+    imageAlt: "A close view of a tomato leaf in the garden",
+    blocks: [
+      {
+        type: "p",
+        text: "Most of this book is about growing. This page is about not getting hurt. Read it once, then keep it in mind when you prune, can, or walk a weedy edge.",
+      },
+      {
+        type: "dl",
+        items: [
+          {
+            term: "Leaves and stems",
+            def: "Tomato leaves, stems, and very green fruit have natural chemicals that can upset your stomach. Do not eat the leaves. Keep pets and small kids from chewing the plants. Some people get itchy skin from the leaves, so gloves help.",
+          },
+          {
+            term: "Canning",
+            def: "Tomatoes are not acidic enough to can safely by themselves. The USDA says to add 2 tablespoons of bottled lemon juice or 1/2 teaspoon of citric acid to each quart jar, or 1 tablespoon of lemon juice or 1/4 teaspoon of citric acid to each pint. Only use tested recipes from the USDA, the National Center for Home Food Preservation, or your extension office. Botulism can kill.",
+          },
+          {
+            term: "Wild look-alikes",
+            def: "Wild nightshades like black nightshade, bittersweet nightshade, horsenettle, and jimsonweed have berries or pods that can look tomato-like. Never eat a wild tomato you did not plant.",
+          },
+          {
+            term: "Black walnut",
+            def: "Black walnut trees poison tomatoes. Plant at least 50 feet away.",
+          },
+        ],
+      },
+      {
+        type: "callout",
+        tone: "warn",
+        kicker: "Canning",
+        title: "Do not invent a recipe",
+        body: "A sealed jar of tomatoes that was not acidified and processed by a tested method can grow botulism. That toxin can kill. Use bottled lemon juice or citric acid in the amounts above, and follow a current USDA or extension recipe.",
+      },
+    ],
+  },
+  {
+    slug: "climate",
+    number: "03",
     title: "Climate and Zones",
     kicker: "When to plant, when to pick",
     dek: "Match the crop to your frost dates. Tomatoes do not forgive a cold soil or a surprise September freeze.",
@@ -130,7 +173,7 @@ export const CHAPTERS: Chapter[] = [
   },
   {
     slug: "varieties",
-    number: "03",
+    number: "04",
     title: "Choosing Varieties",
     kicker: "The right plant for the season you have",
     dek: "Habit, days to maturity, and whether the seed will come true — those three decisions shape the year.",
@@ -172,7 +215,7 @@ export const CHAPTERS: Chapter[] = [
       },
       {
         type: "p",
-        text: "An F1 hybrid (Early Girl, Sun Gold, Celebrity) is a cross. Vigor and disease resistance are the point. Saved seed from an F1 will not match the parent. An heirloom or other open-pollinated variety breeds true if it was not crossed in the garden. Tomatoes mostly self-pollinate, so isolation is easy: a few feet, or a blossom bag if you are a seed purist.",
+        text: "An F1 hybrid (Early Girl, Sun Gold, Celebrity) is a cross. Vigor and disease resistance are the point. Saved seed from an F1 will not match the parent. An heirloom or other open-pollinated variety breeds true if it was not crossed in the garden. Tomatoes mostly pollinate themselves, but bees can still cross them. For seed saving, keep different varieties at least 10 feet apart. Potato-leaf types like Brandywine and tiny wild cherry types like Everglades cross more easily, so keep them 25 feet or more apart, or tie a mesh bag over a flower cluster before it opens and save seed only from those fruits.",
       },
       { type: "varieties" },
       {
@@ -186,7 +229,7 @@ export const CHAPTERS: Chapter[] = [
   },
   {
     slug: "starting",
-    number: "04",
+    number: "05",
     title: "Starting from Seed",
     kicker: "Six to eight weeks before last frost",
     dek: "Stocky, unhurried seedlings beat leggy ones every time. Light and warmth do most of the work.",
@@ -237,7 +280,7 @@ export const CHAPTERS: Chapter[] = [
   },
   {
     slug: "planting",
-    number: "05",
+    number: "06",
     title: "Soil, Site, and Planting",
     kicker: "The day they go out",
     dek: "Bury the stem, give them sun, and do not crowd. Most later trouble starts here.",
@@ -292,7 +335,7 @@ export const CHAPTERS: Chapter[] = [
   },
   {
     slug: "care",
-    number: "06",
+    number: "07",
     title: "Care Through the Season",
     kicker: "Water, prune, feed, repeat",
     dek: "Even moisture and dry leaves. That is most of the job.",
@@ -346,7 +389,7 @@ export const CHAPTERS: Chapter[] = [
   },
   {
     slug: "companions",
-    number: "07",
+    number: "08",
     title: "Companion Plants",
     kicker: "Who belongs in the bed",
     dek: "A few neighbors earn their keep. A few do real harm. The rest are folklore with a pretty chart.",
@@ -373,7 +416,7 @@ export const CHAPTERS: Chapter[] = [
   },
   {
     slug: "trouble",
-    number: "08",
+    number: "09",
     title: "Pests and Trouble",
     kicker: "See it early",
     dek: "Most disasters are a week of ignored leaves. Walk the row twice a week.",
@@ -424,7 +467,7 @@ export const CHAPTERS: Chapter[] = [
   },
   {
     slug: "harvest",
-    number: "09",
+    number: "10",
     title: "Harvest",
     kicker: "Pick for flavor, then beat the frost",
     dek: "Ripe is a color and a give, not a date on the packet.",
@@ -470,7 +513,7 @@ export const CHAPTERS: Chapter[] = [
   },
   {
     slug: "saving-seed",
-    number: "10",
+    number: "11",
     title: "Harvesting Seeds",
     kicker: "Ferment, rinse, dry",
     dek: "Tomato seed is wet seed. The gel around it is a germination inhibitor. Fermentation is how you take that gel off and keep a cleaner, longer-lived seed.",
@@ -483,7 +526,7 @@ export const CHAPTERS: Chapter[] = [
       },
       {
         type: "p",
-        text: "You can rinse and dry without fermenting. Those seeds will often sprout next spring. They keep a year or two, they look shabby, and they carry more of the fruit’s pathogens. Ferment two to three days. It is the method seed savers use because it works.",
+        text: "You can rinse and dry without fermenting. Those seeds will often sprout next spring. Clean, well-dried seed can keep fine even without fermenting. Fermenting makes the seed cleaner and helps remove some diseases that ride on the seed. Ferment two to three days. It is the method seed savers use because it works.",
       },
       { type: "seedSteps" },
       {
@@ -495,13 +538,13 @@ export const CHAPTERS: Chapter[] = [
       },
       {
         type: "p",
-        text: "Tomatoes are mostly self-pollinating. For home use, a few feet between varieties is enough. If you are keeping a rare line pure, bag a few blossoms before they open, then save seed only from those fruit.",
+        text: "Tomatoes mostly pollinate themselves, but bees can still cross them. For seed saving, keep different varieties at least 10 feet apart. Potato-leaf types like Brandywine and tiny wild cherry types like Everglades cross more easily, so keep them 25 feet or more apart, or tie a mesh bag over a flower cluster before it opens and save seed only from those fruits.",
       },
     ],
   },
   {
     slug: "storing-seed",
-    number: "11",
+    number: "12",
     title: "Storing Seeds",
     kicker: "Cool, dry, dark, named",
     dek: "Properly dried tomato seed keeps four to six years easily, and can sprout at ten. The enemies are moisture, heat, and an unlabeled envelope.",
@@ -540,6 +583,85 @@ export const CHAPTERS: Chapter[] = [
       {
         type: "quote",
         text: "Label the envelope as if a stranger had to sow it. One day that stranger will be you, in March, holding a cup of coffee and a tray.",
+      },
+    ],
+  },
+  {
+    slug: "glossary",
+    number: "13",
+    title: "Glossary",
+    kicker: "Words the book uses",
+    dek: "Short definitions. If a word shows up in a chapter, it should be here.",
+    image: "/images/varieties.jpg",
+    imageAlt: "A still life of several kinds of ripe tomatoes",
+    blocks: [
+      {
+        type: "dl",
+        items: [
+          {
+            term: "Determinate",
+            def: "A bush tomato that ripens its crop all at once.",
+          },
+          {
+            term: "Indeterminate",
+            def: "A vining tomato that keeps growing and fruiting until frost.",
+          },
+          {
+            term: "Open-pollinated (OP)",
+            def: "Seed that grows true to its parent.",
+          },
+          {
+            term: "Heirloom",
+            def: "An old open-pollinated variety passed down for generations.",
+          },
+          {
+            term: "F1 hybrid",
+            def: "A cross of two parents. Saved seed won't grow true.",
+          },
+          {
+            term: "Sucker",
+            def: "A side shoot that grows in the joint between a leaf and the stem.",
+          },
+          {
+            term: "Blossom-end rot",
+            def: "A black, leathery patch on the bottom of the fruit, caused by uneven watering.",
+          },
+          {
+            term: "Fermentation",
+            def: "Letting seed gel sit a few days so it breaks down and cleans the seed.",
+          },
+          {
+            term: "Harden off",
+            def: "Slowly getting indoor seedlings used to the outdoors.",
+          },
+          {
+            term: "Frost date",
+            def: "The average date of the last spring frost or first fall frost.",
+          },
+          {
+            term: "Breaker stage",
+            def: "The first blush of color on a green fruit.",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "about",
+    number: "14",
+    title: "About and Disclaimer",
+    kicker: "The Education Revolution",
+    dek: "Who wrote this, and what it is not.",
+    image: "/images/cover.jpg",
+    imageAlt: "Ripe tomatoes on the vine in late-afternoon light",
+    blocks: [
+      {
+        type: "p",
+        text: "This pocket guide is for learning. Gardens, weather, and people differ. Check with your local county extension office for advice in your area. Follow only tested canning recipes. Never eat a wild plant you cannot identify for certain.",
+      },
+      {
+        type: "p",
+        text: "Blue and the Awesome Dudes are not responsible for injury, illness, or crop loss. Part of The Education Revolution pocket guide series.",
       },
     ],
   },

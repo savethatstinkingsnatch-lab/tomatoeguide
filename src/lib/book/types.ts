@@ -41,7 +41,7 @@ export type Variety = {
   id: string;
   name: string;
   type: string;
-  habit: "Determinate" | "Indeterminate" | "Either";
+  habit: "Determinate" | "Indeterminate" | "Semi-determinate" | "Either";
   days: string;
   bestZones: ZoneId[];
   note: string;
